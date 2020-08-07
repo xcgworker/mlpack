@@ -10,4 +10,7 @@ cmake-build-*
 Testing/
 *.swp
 *.swo
+.cproject
+.project
+.settings
 *~
