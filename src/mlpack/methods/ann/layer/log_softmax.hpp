@@ -66,12 +66,12 @@ class LogSoftMax
                 arma::Mat<eT>& g);
 
   //! Get the output parameter.
-  OutputDataType& OutputParameter() const { return outputParameter; }
+  const OutputDataType& OutputParameter() const { return outputParameter; }
   //! Modify the output parameter.
   OutputDataType& OutputParameter() { return outputParameter; }
 
   //! Get the delta.
-  InputDataType& Delta() const { return delta; }
+  const InputDataType& Delta() const { return delta; }
   //! Modify the delta.
   InputDataType& Delta() { return delta; }
 
